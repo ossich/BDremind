@@ -35,7 +35,7 @@
     <h1>BD CRUD</h1>
     <h3>Add person</h3>
     <div class="col-md-2"></div>
-    <div class="col-md-6">
+    <div class="col-md-6 jambotron">
         <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
             <div class="form-row">
                 <div class="form-group col-md-4">
@@ -86,14 +86,16 @@
 
         <p id="counter"></p>
 
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Date</th>
-                <th>Note</th>
-                <th>&nbsp;</th>
-                <th>&nbsp;</th>
-            </tr>
+        <table class="table table-striped  table-sm  .table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Note</th>
+                    <th>&nbsp;</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
             <tbody id="BDs"></tbody>
         </table>
 
